@@ -15,7 +15,7 @@ int main() {
     scanf("%s", carta1);
 
     printf("Digite o estado(ABREVIADO):\n");
-    scanf(" %s", &estado1);
+    scanf(" %s", estado1);
 
     printf("Digite o codigo:\n");
     scanf("%s", codigo1);
@@ -40,7 +40,7 @@ int main() {
     scanf("%s", carta2);
 
     printf("Digite o estado (ABREVIADO):\n");
-    scanf(" %s", &estado2);
+    scanf(" %s", estado2);
 
     printf("Digite o codigo:\n");
     scanf("%s", codigo2);
@@ -63,7 +63,7 @@ int main() {
     // --- Exibir Carta 1 ---
     printf("\n--- Dados da Carta 1 ---\n");
     printf("Carta: %s\n", carta1);
-    printf("Estado: %c\n", estado1);
+    printf("Estado: %s\n", estado1);
     printf("Codigo: %s\n", codigo1);
     printf("Cidade: %s\n", cidade1);
     printf("Populacao: %.0f\n", populacao1);
@@ -74,7 +74,7 @@ int main() {
     // --- Exibir Carta 2 ---
     printf("\n--- Dados da Carta 2 ---\n");
     printf("Carta: %s\n", carta2);
-    printf("Estado: %c\n", estado2);
+    printf("Estado: %s\n", estado2);
     printf("Codigo: %s\n", codigo2);
     printf("Cidade: %s\n", cidade2);
     printf("Populacao: %.0f\n", populacao2);
